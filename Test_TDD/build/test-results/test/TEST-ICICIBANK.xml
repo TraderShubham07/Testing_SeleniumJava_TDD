@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ICICIBANK" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-02-13T19:09:05" hostname="DESKTOP-K20S65F" time="4.788">
+  <properties/>
+  <testcase name="iciciBankInsurance" classname="ICICIBANK" time="4.788"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
