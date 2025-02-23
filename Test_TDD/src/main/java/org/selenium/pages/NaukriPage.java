@@ -1,6 +1,5 @@
 package org.selenium.pages;
 
-import org.checkerframework.checker.units.qual.N;
 import org.openqa.selenium.WebDriver;
 import org.selenium.maps.NaukriMaps;
 import org.selenium.utilities.BaseCommands;
@@ -24,7 +23,7 @@ public class NaukriPage extends BaseCommands {
 //        click(NaukriMaps.SAVE_BUTTON);
     }
 
-    public void clickonLogin() {
+    public void clickOnLogin() {
         click(NaukriMaps.LOGIN);
     }
 

@@ -18,8 +18,14 @@ dependencies {
 }
 
 test {
-    useTestNG()
+    useTestNG() {
+//        dependsOn cleanTest
+        useDefaultListeners = true
+        suites "src/test/testng.xml"
+    }
 }
+
+
 kotlin {
     jvmToolchain(17)
 }

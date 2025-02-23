@@ -9,9 +9,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class BaseCommands extends BaseTest {
-
-
-    protected WebDriver driver;
     private WebDriverWait wait;
 
     public BaseCommands(WebDriver driver) {
