@@ -1,0 +1,33 @@
+pipeline {
+    agent any
+    environment {
+        CHROME_DRIVER = "/usr/bin/chromedriver"
+    }
+    stages {
+        stage('Checkout Code') {
+            steps {
+                git 'https://github.com/your-repo.git'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh './gradlew clean build'
+            }
+        }
+        stage('Run Tests') {
+            steps {
+                sh 'java -cp "lib/*:bin" org.testng.TestNG testng.xml'
+            }
+        }
+        stage('Report') {
+            steps {
+                junit '**/test-output/testng-results.xml'
+            }
+        }
+    }
+    post {
+        always {
+            archiveArtifacts artifacts: '**/test-output/*.html', fingerprint: true
+        }
+    }
+}
