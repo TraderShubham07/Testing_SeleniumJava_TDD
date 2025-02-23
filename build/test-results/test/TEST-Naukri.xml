@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Naukri" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-02-23T20:22:33" hostname="DESKTOP-K20S65F" time="4.775">
+  <properties/>
+  <testcase name="testNaukriAutomation" classname="Naukri" time="4.775"/>
+  <system-out><![CDATA[Profile updated successfully!
+]]></system-out>
+  <system-err><![CDATA[Feb 24, 2025 1:52:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
+]]></system-err>
+</testsuite>

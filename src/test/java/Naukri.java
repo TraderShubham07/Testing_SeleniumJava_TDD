@@ -16,7 +16,7 @@ public class Naukri extends BaseTest {
         naukriPage.clickOnLogin();
         naukriPage.login(username, password);
         naukriPage.viewProfile();
-//        naukriPage.updateLocation(location);
+        naukriPage.updateLocation(location);
 
         System.out.println("Profile updated successfully!");
     }
