@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 
 public class Naukri extends BaseTest {
-    
+
     @Test
     public void testNaukriAutomation() {
         NaukriPage naukriPage = new NaukriPage(driver);
