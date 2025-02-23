@@ -1,4 +1,3 @@
-import org.selenium.maps.NaukriMaps;
 import org.selenium.pages.NaukriPage;
 import org.selenium.utilities.BaseTest;
 import org.selenium.utilities.ConfigReader;
